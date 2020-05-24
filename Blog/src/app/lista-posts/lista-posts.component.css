@@ -1,0 +1,17 @@
+header h3 {
+    margin: 20px;
+    text-align: center;
+}
+
+main .container {
+    margin-bottom: 20px;
+}
+
+.container .row .card-body {
+    height: 220px;
+}
+
+.container .row .card-body h5 {
+    height: 60px;
+    color: rgb(23, 63, 102);
+}

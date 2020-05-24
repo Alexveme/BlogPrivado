@@ -1,0 +1,18 @@
+<header>
+    <h3>My Blog Privado</h3>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="tarjetas col-12 col-md-4 my-3" *ngFor="let post of arrPosts">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{post.title.substr(0,60)}}</h5>
+                        <p class="card-text">{{post.body.substr(0,70)}}...</p>
+                        <a [routerLink]="['/post', post.id]" class="btn btn-light btn-sm">Ir al post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

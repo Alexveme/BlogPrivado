@@ -1,0 +1,25 @@
+<div class="container cabecera">
+    <div class="row">
+        <a (click)="volverAtras()" class="btn-volver">&#60; Volver</a>
+        <h3>{{postCargado.title}}</h3>
+        <a (click)="volverAtras()" class="btn-cerrar">Cerrar &#88;</a>
+    </div>
+</div>
+<hr>
+<div class="container cuerpo">
+    <div class="row">
+        <div class="texto-cabecera col-md-6">
+            <p>{{postCargado.body}}.</p>
+        </div>
+        <div class="images col-md-6">
+            <img src="https://images.unsplash.com/photo-1452626212852-811d58933cae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2448&q=80">
+            <img src="https://images.unsplash.com/photo-1452036167495-c83a0e8a6814?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
+        </div>
+        <div class="image col-md-6">
+            <img src="https://images.unsplash.com/photo-1464852045489-bccb7d17fe39?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+        </div>
+        <div class="texto col-md-6">
+            <p>{{postCargado.body}}.<br><br><strong>{{postCargado.body}}.</strong><br><br>{{postCargado.body}}.</p>
+        </div>
+    </div>
+</div>
